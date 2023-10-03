@@ -1,640 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accio job landing page</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="global.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white" id="nav-1">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./assests/Logo.svg" alt="" width="180" class="d-inline-block align-text-top nav-img-1">
+                <img src="Line 8.svg" alt="" width="3" class="d-inline-block align-text-top">
+                <img src="NSDC_Logo_in_clear_background 1.svg" alt="" width="85" class="d-inline-block align-text-top nav-img-2">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <form class="d-flex">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Courses
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#"><i>MERN Full Stack Development</i></a></li>
+                              <li><a class="dropdown-item" href="#"><i>JAVA Full Stack Development</i></a></li>
+                              <li><a class="dropdown-item" href="#"><i>Data Analytics</i></a></li>
+                            </ul>
+                          </li>&nbsp;&nbsp;&nbsp;
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Acciojob Reviews</a>
+                          </li>&nbsp;&nbsp;&nbsp;
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Scolarship Test</a>
+                          </li>&nbsp;&nbsp;&nbsp;
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#"><i>Careers</i></a></li>
+                              <li><a class="dropdown-item" href="#"><i>Events</i></a></li>
+                              <li><a class="dropdown-item" href="#"><i>Blogs</i></a></li>
+                              <li><a class="dropdown-item" href="#"><i>Refer & Earn</i></a></li>
+                              <li><a class="dropdown-item" href="#"><i>Hire From Us</i></a></li>
+                              <li><a class="dropdown-item" href="#"><i>Become A Mentor</i></a></li>
+                            </ul>
+                          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </ul>
+                  <button class="btn btn-outline-primary px-4" type="submit">Login</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!-- <section >
+        <div  class="new-batch bg-primary text-white text-center"><p>Next batch starts in ⌛ 22 Days, Hurry!  ️</p></div>
+    </section> -->
     
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./assests/Logo.svg" alt="accio-logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse m1-auto" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Courses
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#"></a>MERN Full stack Developement</li>
-                      <li><a class="dropdown-item" href="#"></a>JAVA Full stack Developement</li>
-                      <li><a class="dropdown-item" href="#"></a>Data Analytics</li>
-                    </ul>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Acciojob Reviews</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  More
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#"></a>Career Guidance</li>
-                  <li><a class="dropdown-item" href="#"></a>Events</li>
-                  <li><a class="dropdown-item" href="#"></a>Blogs</li>
-                  <li><a class="dropdown-item" href="#"></a>Hire From Us</li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Scholarship Test</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <button class="btn btn-outline-success" type="submit">Login</button>
-            </form>
-          </div>
+    <section class="hero">
+        <div style="margin-top: 85px;">
+            <div  class="new-batch bg-primary text-white text-center"><p>Next batch starts in ⌛ 22 Days, Hurry!  ️</p></div>
         </div>
-       
-      </nav>
-      <div class="border">
-        Next bacth start in <img src="" alt=""> 22 days, Hurry!!!
-      </div>
-</header>
-<!-- header section ends here -->
-<!-- hero section start here -->
-<section class="hero">
-<div class="hero-1">
-
-    <div class="texts">
-        <p><span class="Launch-Your-Career-With-Our">Launch Your Career With Our</span><br><span class="full-stack">Full Stack Developer</span>      <span class="courses">Courses</span></p>
-        <p class="alumuni">Curriculum designed and taught by Alumni from IIT’s & <br>Leading Tech Companies.</p>
-    </div><br><br><br>
-    <div class="packages">
-        <div class="packages1">
-            <img src="./assests/Group 907.svg" alt="frame1">
-           <div class="packages1-1">
-            <h4 class="lakhs">41 Lakhs</h4>
-            <p class="p-text">Highest Salary</p>
-           </div>
-        </div>
-        <div class="packages1">
-            <img src="./assests/Group 48097592.png" alt="frame1">
-           <div class="packages1-1">
-            <h4 class="lakhs">300 +</h4>
-            <p class="p-text">Partner Companies</p>
-           </div>
-        </div>
-        <div class="packages1">
-            <img src="./assests/Group 903.svg" alt="frame1">
-           <div class="packages1-1">
-            <h4 class="lakhs">100%</h4>
-            <p class="p-text">Job Gurantee</p>
-           </div>
-        </div>
-        <div class="packages1">
-            <img src="./assests/Group 48097591.png" alt="frame1">
-           <div class="packages1-1">
-            <h4 class="lakhs">8.3 LPA</h4>
-            <p class="p-text">Average Salary</p>
-           </div>
-        </div>
-        
-    </div><br><br><br>
-    <div class="made">Students 💙 AccioJob</div>
-</div>
-
-<div class="cards">
-    <h4 class="cards-1">
-        Start Attending Live<br>
-        Classes For Free!
-    </h4>
-    <p class="cards-2">Live lectures & Assignments curated by<br>
-    Top Tech Professionals</p>
-    <div class="input-1"><img src="./assests/Frame (2).svg" alt="name" width="18px"><input type="text" placeholder="Enter your name"></div><br>
-    <div class="input-2"><img src="./assests/Frame (3).svg" alt="phone-number" width="18px"><input type="text" placeholder="Phone Number"></div><br>
-    <div class="btn-1">
-        <button type="submit" id="submit">Apply Now For Free > </button>
-    </div>
-    <div class="terms"><p>By clicking<span>'Apply Now'</span>you agree to our<br><a href="#">Terms & Condition</a></p></div>
-</div>
-</section>
-<!-- hero section end here -->
-
-<!-- courses  section start here -->
-
-<div class="course-we-offer">
-    <div class="title">
-      <i class="learn-full-stack-web">learn full-stack web development</i>
-      <div class="our-courses">OUR COURSES</div>
-    </div>
-    <div class="course-cards">
-      <div class="sapling-card">
-        <div class="tag">
-          <i class="recommended-for-beginners"
-            >Ideal For first-time coders</i
-          >
-        </div>
-        <div class="details">
-          <div class="frame-parent45">
-            <div class="frame-parent46">
-              <img
-                class="material-symbolsskip-next-out-icon"
-                alt=""
-                src="./assests/Frame (4).svg"
-              />
-
-              <div class="placement-starts">Placement Starts</div>
-            </div>
-            <i class="in-4-months">in 4 Months</i>
-          </div>
-          <div class="details-child"></div>
-          <div class="frame-parent45">
-            <div class="mdigraduation-cap-outline-parent">
-              <img
-                class="frame-icon"
-                alt=""
-                src="./assests/mdi_graduation-cap-outline.svg"
-              />
-
-              <div class="placement-starts">Eligibility</div>
-            </div>
-            <i class="final-year-or"
-              >Final year students or Graduates, All degrees</i
-            >
-          </div>
-          <div class="details-child"></div>
-          <div class="frame-parent45">
-            <div class="mdigraduation-cap-outline-parent">
-              <img class="frame-icon" alt="" src="./assests/Frame (5).svg" />
-
-              <div class="placement-starts">Duration</div>
-            </div>
-            <i class="in-4-months">12 Months</i>
-          </div>
-          <div class="details-child"></div>
-          <div class="frame-parent45">
-            <div class="mdigraduation-cap-outline-parent">
-              <img class="frame-icon" alt="" src="./assests/Frame (6).svg" />
-
-              <div class="placement-starts">Daily Effort</div>
-            </div>
-            <i class="in-4-months">5-7 hours </i>
-          </div>
-          <div class="details-child"></div>
-          <div class="frame-parent45">
-            <div class="mdigraduation-cap-outline-parent">
-              <img
-                class="material-symbolsskip-next-out-icon"
-                alt=""
-                src="./assests/material-symbols_skip-next-outline.svg"
-              />
-
-              <div class="placement-starts">Next Batch On</div>
-            </div>
-            <i class="in-4-months">27th Dec 2022</i>
-          </div>
-        </div>
-        <div class="title1">
-          <div class="sapling-icon-parent">
-            <img
-              class="sapling-icon"
-              alt=""
-              src="./assests/Sapling Icon.svg"
-            />
-
-            <i class="beginner">Beginner</i>
-          </div>
-          <div class="frame-parent53">
-            <div class="job-gaurantee-wrapper">
-              <div class="beginner">100% Job Gaurantee</div>
-            </div>
-            <div class="job-gaurantee-wrapper">
-              <div class="beginner">Lifetime Access</div>
-            </div>
-          </div>
-          <div class="for-beginners-starting">
-            For you to start their coding journey from scratch
-          </div>
-        </div>
-        <div class="cta-button-parent">
-          <div class="cta-button1">
-            <img
-              class="material-symbolsskip-next-out-icon"
-              alt=""
-              src="./assests/Frame (7).svg"
-            />
-
-            <i class="samvrant-samantaray">Brochure</i>
-          </div>
-          <div class="cta-button2">
-            <i class="samvrant-samantaray">Learn More</i>
-            <img
-              class="material-symbolsskip-next-out-icon"
-              alt=""
-              src="./assests/Frame (8).svg"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="pioneer-card">
-        <div class="title2">
-          <div class="sapling-icon-parent">
-            <img class="sapling-icon" alt="" src="./assests/Frame (9).svg" />
-<!-- Intermediate -->
-            <i class="beginner">Intermediate</i>
-          </div>
-          <div class="frame-parent55">
-            <div class="pay-after-placement-wrapper">
-              <div class="beginner">Pay After Placement</div>
-            </div>
-            <div class="pay-after-placement-wrapper">
-              <div class="beginner">Lifetime Access</div>
-            </div>
-          </div>
-          <div class="for-beginners-starting">
-            For learners with good aptitude & logical reasoning
-          </div>
-        </div>
-        <div class="cta-button-group">
-          <div class="cta-button1">
-            <img
-              class="material-symbolsskip-next-out-icon"
-              alt=""
-              src="./assests/Frame (7).svg"
-            />
-
-            <i class="samvrant-samantaray">Brochure</i>
-          </div>
-          <div class="cta-button2">
-            <i class="samvrant-samantaray">Learn More</i>
-            <img
-              class="material-symbolsskip-next-out-icon"
-              alt=""
-              src="./assests/Frame (8).svg"
-            />
-          </div>
-        </div>
-        <div class="details1">
-          <div class="frame-parent45">
-            <div class="frame-parent46">
-              <img
-                class="material-symbolsskip-next-out-icon"
-                alt=""
-                src="./assests/Frame (4).svg"
-              />
-
-              <div class="placement-starts">Placement Starts</div>
-            </div>
-            <i class="in-4-months">in 6 Months</i>
-          </div>
-          <div class="details-child"></div>
-          <div class="frame-parent45">
-            <div class="mdigraduation-cap-outline-parent">
-              <img
-                class="frame-icon"
-                alt=""
-                src="./assests/mdi_graduation-cap-outline.svg"
-              />
-
-              <div class="placement-starts">Eligibility</div>
-            </div>
-            <i class="batch-students-all"
-              >2019-2023 Batch students, All Degrees
-            </i>
-          </div>
-          <div class="details-child"></div>
-          <div class="frame-parent45">
-            <div class="mdigraduation-cap-outline-parent">
-              <img class="frame-icon" alt="" src="./assests/Frame (5).svg" />
-
-              <div class="placement-starts">Duration</div>
-            </div>
-            <i class="in-4-months">10 Months</i>
-          </div>
-          <div class="details-child"></div>
-          <div class="frame-parent45">
-            <div class="mdigraduation-cap-outline-parent">
-              <img class="frame-icon" alt="" src="./assests/Frame (6).svg" />
-
-              <div class="placement-starts">Daily Effort</div>
-            </div>
-            <i class="in-4-months">8-10 hours </i>
-          </div>
-          <div class="details-child"></div>
-          <div class="frame-parent45">
-            <div class="mdigraduation-cap-outline-parent">
-              <img
-                class="material-symbolsskip-next-out-icon"
-                alt=""
-                src="./assests/material-symbols_skip-next-outline.svg"
-              />
-
-              <div class="placement-starts">Next Batch On</div>
-            </div>
-            <i class="in-4-months">27th Dec 2022</i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- courses end here -->
-
-<!-- companies start here -->
-  <div class="companies">
-    <div class="title3">
-      <i class="student-testimonials">Over 300+ hiring partners</i>
-      <div class="top-startups-mncs-hire-soft-parent">
-        <i class="top-startups-container">
-          <span>Top Startups & MNC’s Hire </span>
-          <span class="terms-conditions">Software Engineer</span>
-        </i>
-        <div class="from-acciojob-upto">From AccioJob upto 41 Lakhs</div>
-      </div>
-    </div>
-    <div class="companies-logo">
-      <div class="frame-parent64">
-        <div class="image-23-wrapper">
-          <img
-            class="image-23-icon"
-            alt=""
-            src="./assests/walmart.svg"
-          />
-        </div>
-        <div class="image-23-wrapper">
-          <img
-            class="image-38-icon"
-            alt=""
-            src="./assests/amazon.png"
-          />
-        </div>
-        <div class="image-23-wrapper">
-          <img
-            class="image-23-icon1"
-            alt=""
-            src="./assests/bharat.png"
-          />
-        </div>
-        <div class="image-23-wrapper">
-          <img
-            class="image-53-icon"
-            alt=""
-            src="./assests/maerks.png"
-          />
-        </div>
-        <div class="image-23-wrapper">
-          <img
-            class="image-23-icon"
-            alt=""
-            src="./assests/makemytrip.png"
-          />
-        </div>
-        <div class="image-23-wrapper">
-          <img
-            class="image-53-icon1"
-            alt=""
-            src="./assests/paytm.png"
-          />
-        </div>
-      </div>
-      <div class="frame-parent65">
-        <div class="image-23-wrapper1">
-          <img
-            class="image-23-icon3"
-            alt=""
-            src="./assests/through.png"
-          />
-        </div>
-        <div class="image-38-container">
-          <img
-            class="image-38-icon1"
-            alt=""
-            src="./assests/tata.png"
-          />
-        </div>
-        <div class="image-53-frame">
-          <img
-            class="image-53-icon2"
-            alt=""
-            src="./assests/innoaccer.png"
-          />
-        </div>
-        <div class="image-38-frame">
-          <img
-            class="image-38-icon2"
-            alt=""
-            src="./assests/free.png"
-          />
-        </div>
-        <div class="image-54-wrapper">
-          <img
-            class="image-53-icon3"
-            alt=""
-            src="./assests/public.png"
-          />
-        </div>
-        <div class="image-23-wrapper2">
-          <img
-            class="image-23-icon4"
-            alt=""
-            src="./assests/hsbc.png"
-          />
-        </div>
-      </div>
-      <div class="frame-parent64">
-        <div class="image-54-wrapper">
-          <img
-            class="image-23-icon5"
-            alt=""
-            src="./assests/mini.png"
-          />
-        </div>
-        <div class="image-38-container">
-          <img
-            class="image-38-icon3"
-            alt=""
-            src="./assests/glocal.png"
-          />
-        </div>
-        <div class="image-53-frame">
-          <img
-            class="image-23-icon6"
-            alt=""
-            src="./assests/fly.png"
-          />
-        </div>
-        <div class="image-38-frame">
-          <img
-            class="image-55-icon"
-            alt=""
-            src="./assests/converg.png"
-          />
-        </div>
-        <div class="image-54-wrapper">
-          <img
-            class="image-54-icon"
-            alt=""
-            src="./assests/park.png"
-          />
-        </div>
-        <div class="image-57-wrapper">
-          <img
-            class="image-57-icon"
-            alt=""
-            src="./assests/cadance.png"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="cta-button5">
-      <i class="samvrant-samantaray">Placement Report</i>
-      <img
-        class="material-symbolsskip-next-out-icon"
-        alt=""
-        src="./assests/Frame (8).svg"
-      />
-    </div>
-</div>
-<!-- companies end here -->
-<section class="success-story container py-3 ">
-<div class="card p-3" id="first-card" style="width: 18rem;">
-    <div class='kohli'><img src="./assests/virat kohli.svg" alt="kohli">
-    <div class="kohli-text">
-        <h4>Virat Kohli</h4>
-        <p>SDE-|| at Indian Cricket Board</p>
-        
-    </div>
-    <a href="#"><img src="./assests/LinkedIN.svg" alt=""></a>
-    </div>
-    <div class="story">
-        <P>My Life changed when I became a part of the
-            AccioJob family. Before that I was not able to
-            score any centuries. As soon as I joined Accio,
-            I hit a century against Afganistan.</P>
-    </div>
-    <author>2 June, 2022</author>
-</div>
-<div class="card p-3" claclass="first-card" style="width: 18rem;">
-    <div class='kohli'><img src="./assests/Ishan.svg" alt="kohli">
-    <div class="kohli-text">
-        <h4>Ishan Kishan</h4>
-        <p>Intern at Indian Cricket Board</p>
-        
-    </div>
-    <a href="#"><img src="./assests/Quora.svg" alt=""></a>
-    </div>
-    <div class="story">
-        <P>My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afg anistan. My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afganistan.</P>
-    </div>
-    <author>2 June, 2022</author>
-</div>
-<div class="card p-3" class="first-card" style="width: 18rem;">
-    <div class='kohli'><img src="./assests/shewag.svg" alt="kohli">
-    <div class="kohli-text">
-        <h4>Virender Sehwag</h4>
-        <p>SDE-IV at Indian Cricket Board</p>
-        
-    </div>
-    <a href="#"><img src="./assests/LinkedIN.svg" alt=""></a>
-    </div>
-    <div class="story">
-        <P>My Life changed when I became a part of the
-            AccioJob family. Before that I was not able to
-            score any centuries. As soon as I joined Accio,
-            I hit a century against Afganistan. Then I got 
-            offers from RCB for IPL as captain again. Bas
-            ab India World Cup Jeet jaye.</P>
-    </div>
-    <author>2 June, 2022</author>
-</div>
-
-<div class="card p-3" class="first-card" style="width: 18rem;">
-    <div class='kohli'><img src="./assests/rohit sharma.svg" alt="kohli">
-    <div class="kohli-text">
-        <h4>Rohit Sharma</h4>
-        <p>SDE-II at Indian Cricket Board</p>
-        
-    </div>
-    <a href="#"><img src="./assests/LinkedIN.svg" alt=""></a>
-    </div>
-    <div class="story">
-        <P>My Life changed when I became a part of the
-            AccioJob family. Before that I was not able to
-            score any centuries. As soon as I joined Accio,
-            I hit a century against Afganistan. Then I got 
-            offers from RCB for IPL as captain again. Bas
-            ab India World Cup Jeet jaye.</P>
-    </div>
-    <author>2 June, 2022</author>
-    </div>
-    <div class="card p-3" class="first-card" style="width: 18rem;">
-        <div class='kohli'><img src="./assests/sarfaraz.png" alt="kohli">
-        <div class="kohli-text">
-            <h4>Sarfaraz Ahmed</h4>
-            <p>WK at Pak. Cricket Board</p>
-            
-        </div>
-        <a href="#"><img src="./assests/LinkedIN.svg" alt=""></a>
-        </div>
-        <div class="story">
-            <P>Inshallah Boys Played well. My answer also same
-                Inshallah Boys! Well done!</P>
-        </div>
-        <author>2 June, 2022</author>
-        </div>
-        <div class="card p-3" class="first-card" style="width: 18rem;">
-            <div class='kohli'><img src="./assests/virat kohli.svg" alt="kohli">
-            <div class="kohli-text">
-                <h4>Sachin Tendulkar</h4>
-                <p>God at Indian Cricket Board</p>
-                
-            </div>
-            <a href="#"><img src="./assests/LinkedIN.svg" alt=""></a>
-            </div>
-            <div class="story">
-                <P>My Life changed when I became a part of the
-                    AccioJob family. Before that I was not able to
-                    score any centuries. As soon as I joined Accio,
-                    I hit a century against Afganistan.</P>
-            </div>
-            <author>2 June, 2022</author>
-            </div>
-            <div class="card p-3" class="first-card" style="width: 18rem;">
-                <div class='kohli'><img src="./assests/virat kohli.svg" alt="kohli">
-                <div class="kohli-text">
-                    <h4>Virat Kohli</h4>
-                    <p>SDE-|| at Indian Cricket Board</p>
-                    
-                </div>
-                <a href="#"><img src="./assests/LinkedIN.svg" alt=""></a>
-                </div>
-                <div class="story">
-                    <P>My Life changed when I became a part of the
-                        AccioJob family. Before that I was not able to
-                        score any centuries. As soon as I joined Accio,
-                        I hit a century against Afganistan.</P>
-                </div>
-                <author>2 June, 2022</author>
-                </div>
-                <div class="card p-3" class="first-card" style="width: 18rem;">
-                    <div class='kohli'><img src="./assests/virat kohli.svg" alt="kohli">
-                    <div class="kohli-text">
-                        <h4>Virat Kohli</h4>
-                        <p>SDE-|| at Indian Cricket Board</p>
-                        
+        <div class="hero mx-5 d-flex justify-content-between align-items-center flex-wrap">
+            <div class="hero-right">
+                <p class="fs-1"><i>Launch your career with our<br><span class="text-primary fs-1 fw-bolder">Full Stack Developer</span>&nbsp;<span class="fs-1 fw-bolder">Courses</span></i></p>
+                <p class="text-secondary">Curriculum designed and taught by Alumini from IIT's & <br> Leading Tech Companies.</p>
+                <div class="d-flex" >
+                    <div class="arrow-back mt-5 shadow py-2" id="hero-img">
+                        <img src="./assests/Frame 999-41lakhs.svg" alt="error 404">
+                        <img src="./assests/Frame 1002-300+.svg" alt="error 404">
+                        <img src="./assests/Frame 1001-8.3-average.svg" alt="error 404">
+                        <img src="./assests/Frame 998-job-gu.svg" alt="error 404" >
                     </div>
-                    <a href="#"><img src="./assests/LinkedIN.svg" alt=""></a>
-                    </div>
-                    <div class="story">
-                        <P>My Life changed when I became a part of the
-                            AccioJob family. Before that I was not able to
-                            score any centuries. As soon as I joined Accio,
-                            I hit a century against Afganistan.</P>
-                    </div>
-                     <author>2 June, 2022</author>
-                    </div>
+                    <img class="arrow" src="./assests/Arrow.svg" alt="error 404">
+                </div>
+                <!-- <div class="mt-5 shadow py-2">
+                    <img src="Frame 998.svg">
+                    <img src="Frame 999.svg">
+                    <img src="Frame 1001.svg">
+                    <img src="Frame 1002.svg">
+                </div>
+                <img class="arrow" src="Arrow 2.svg"> -->
+                <div class="made">Students 💙 AccioJob</div>
+            </div>
+            <div class="card-0 p-4 shadow d-flex flex-colomn align-items-center ">
+                <p class="fs-3 text-center"><i>Start Attending Live <br>Classes For Free!</i></p>
+                <p class="text-center text-secondary"><i>Live lectures & Assignments curated by<br>Top Tech Professionals</i></p>
+                <div class="mt-3 card-0-info">
+                    <label><img src="./assests/Framename.svg"></label>&nbsp;&nbsp;
+                    <input class="card-0-name" type="text" placeholder="Full name">
+                </div>
+                <div class="mt-1 card-0-info">
+                    <label><img src="./assests/Framenumber.svg"></label>&nbsp;&nbsp;
+                    <input class="card-0-number" type="text" placeholder="Mobile No">
+                </div>
+                <button class="text-white" id="apply-btn"><i>Apply Now For Free ></i></button>
+                <p class="text-secondary text-center mt-3"><i>By clicking 'Apply Now' , you agree to our<br><span class="text-primary">Terms & Conditions</span></i></p>
+            </div>
+        </div>
+        
+    </section>
+    
 
-</section>
+    <section  style="background-color:#ECF8FF ;" class="courses mt-5 py-5">
+        <div>
+            <h5 class="text-center" style="color: #992FED;"><i>LEARN FULL - STACK WEB DEVELOPMENT</i></h5>
+            <h2 class="text-center text-primary"><i>OUR COURSES</i></h2>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center mt-5">
+            <div class="card-1 d-flex  flex-colomn align-items-center mx-5 py-1">
+                <h4><img src="./assests/Sapling Iconbeginner.png"><i>Beginner</i></h4>
+                <p><i><span style="background-color:#E0F3FF; border-radius: 5px;" class="text-primary p-1">100% Job Gaurantee</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color:#E0F3FF; border-radius: 5px;" class="text-primary p-1">Lifetime Access</span></i></p>
+                <p class="text-secondary">For you to start their coding journey from start</p>
+                <div id="Beginner">
+                    <div class="d-flex">
+                        <p><img src="./assests/Frameplacement-start.svg">&nbsp;&nbsp;Placement Starts</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>in 4 months</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p><img src="./assests/mdi_graduation-cap-outlineeligibility.svg">&nbsp;&nbsp;Eligibility</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>Final year students or<br> Graduates, All degree</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p><img src="./assests/Frameduration.svg">&nbsp;&nbsp;Duration</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>12 Months</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p><img src="./assests/Framedaily-effort.svg">&nbsp;&nbsp;Daily Effort</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>5 - 7 Hrs</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p><img src="./assests/material-symbols_skip-next-outlinenext-batch.svg">&nbsp;&nbsp;Next batch On</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>03-Oct-2023</p>
+                    </div>  
+                </div>
+                <div id="beg-btn">
+                    <button class="btn-1 text-primary"><img src="./assests/Framebrochure.svg">Broucher</button>
+                    <button class="btn-2 text-white">Learn More</button>
+                </div>
+            </div>
+            <div class="card-1  mx-5 py-1">
+                <h4><img src="./assests/Frameintermediate.svg"><i>Intermidiate</i></h4>
+                <p><i><span style="background-color:#FFEED8; border-radius: 5px;" class="text-danger p-1">Pay After Placement</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color:#FFEED8; border-radius: 5px;" class="text-danger p-1">Lifetime Access</span></i></p>
+                <p class="text-secondary">For learners with good reasoning & logical reasoning</p>
+                <div id="Intermidiate">
+                    <div class="d-flex">
+                        <p><img src="./assests/Frameplacement-start.svg">&nbsp;&nbsp;Placement Starts</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>in 4 months</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p><img src="./assests/mdi_graduation-cap-outlineeligibility.svg">&nbsp;&nbsp;Eligibility</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>Final year students or<br> Graduates, All degree</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p><img src="./assests/Frameduration.svg">&nbsp;&nbsp;Duration</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>12 Months</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p><img src="./assests/Framedaily-effort.svg">&nbsp;&nbsp;Daily Effort</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>5 - 7 Hrs</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p><img src="./assests/material-symbols_skip-next-outlinenext-batch.svg">&nbsp;&nbsp;Next batch On</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>03-Oct-2023</p>
+                    </div>  
+                </div>
+                <div id="int-btn">
+                    <button class="btn-1 text-primary"><img src="./assests/Framebrochure.svg">Broucher</button>
+                    <button class="btn-2 text-white">Learn More <img src="" alt=""></button>
+                </div>
+            </div>
+        </div>  
+        
+    </section>
 
+    <section class="partners my-5 mx-5">
+        <div class="d-flex flex-column align-items-center">
+            <p class="text-primary"><i>OVER 300+ HIRING PARTNERS</i></p>
+            <h3 class="text-center"><i>Top Startups & MNC's Hire</i></h3>
+            <h3 class="text-primary"><i>Software Engineer</i></h3>
+            <p class="text-secondary">From Acciojob upto 41 Lakhs</p>
+        </div>
+        <div id="scroll-container">
+            <div class="d-flex justify-content-between flex-wrap" id="list">
+                <marquee behavior="" direction="left">
+                <img class="mx-3 my-2" src="./assests/walmart.svg">
+                <img class="mx-3 my-2" src="./assests/amazon.png">
+                <img class="mx-3 my-2" src="./assests/bharat.png">
+                <img class="mx-3 my-2" src="./assests/maerks.png">
+                <img class="mx-3 my-2" src="./assests/makemytrip.png">
+                <img class="mx-3 my-2" src="./assests/paytm.png">
+                </marquee>
+                <marquee behavior="" direction="right">
+                <img class="mx-3 my-2" src="./assests/through.png">
+                <img class="mx-3 my-2" src="./assests/tata.png">
+                <img class="mx-3 my-2" src="./assests/innoaccer.png">
+                <img class="mx-3 my-2" src="./assests/free.png">
+                <img class="mx-3 my-2" src="assests/public.png">
+                <img class="mx-3 my-2" src="./assests/hsbc.png">
+                </marquee>
+               <marquee behavior="" direction="left">
+                <img class="mx-3 my-2" src="./assests/mini.png">
+                <img class="mx-3 my-2" src="./assests/glocal.png">
+                <img class="mx-3 my-2" src="./assests/fly.png">
+                <img class="mx-3 my-2" src="./assests/converg.png">
+                <img class="mx-3 my-2" src="./assests/park.png">
+                <img class="mx-3 my-2" src="./assests/cadance.png">
+               </marquee>
+            </div>
+        </div>
+        
+        <div class="d-flex justify-content-center mt-5">
+            <button class="btn-3 text-white"><i>Placement Report ></i></button>
+        </div>    
+    </section>
+    <hr>
+    <footer class="mt-5 mx-5">
+        <div>
+            <h3 class="text-center"><i>Accio Wall Of Love</i></h3>
+            <p class="text-center text-secondary"><i>Our Alumini Say it Best</i></p>
+        </div>
+        <div class="card-main">
+            <div class="card-2 shadow m-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <img src="./assests/virat kohli.svg">
+                    <p><i>Virat Kohali<br><span class="text-secondary">SDE-II at Indian Cricket Board</span></i></p>
+                    <img src="./assests/LinkedIN.svg">
+                </div>
+                <p class="text-secondary mt-3"><i>My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afganistan.</i></p>
+                <p class="text-secondary mt-2"><i>03/Oct/2023</i></p>
+            </div>
+            <div class="card-2 shadow m-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <img src="./assests/Ishan.svg">
+                    <p><i>Ishan Kishan<br><span class="text-secondary">SDE-II at Indian Cricket Board</span></i></p>
+                    <img src="./assests/Quora.svg">
+                </div>
+                <p class="text-secondary mt-3"><i>My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afg anistan. My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined</i></p>
+                <p class="text-secondary mt-2"><i>03/Oct/2023</i></p>
+            </div>
+            <div class="card-2 shadow m-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <img src="./assests/shewag.svg">
+                    <p><i>Virender Sehwag<br><span class="text-secondary">SDE-II at Indian Cricket Board</span></i></p>
+                    <img src="./assests/LinkedIN.svg">
+                </div>
+                <p class="text-secondary mt-3"><i>My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afg anistan</i></p>
+                <p class="text-secondary mt-2"><i>03/Oct/2023</i></p>
+            </div>
+            <div class="card-2 shadow m-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <img src="./assests/rohit sharma.svg">
+                    <p><i>Rohit Sharma<br><span class="text-secondary">SDE-II at Indian Cricket Board</span></i></p>
+                    <img src="./assests/LinkedIN.svg">
+                </div>
+                <p class="text-secondary mt-3"><i>My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afg anistan. My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined</i></p>
+                <p class="text-secondary mt-2"><i>03/Oct/2023</i></p>
+            </div>
+            <div class="card-2 shadow m-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <img src="./assests/sarfaraz.png">
+                    <p><i>Sarfaraz Ahmed<br><span class="text-secondary">SDE-II at Indian Cricket Board</span></i></p>
+                    <img src="./assests/LinkedIN.svg">
+                </div>
+                <p class="text-secondary mt-3"><i>Inshallah Boys Played well. My answer also same
+                    Inshallah Boys! Well done!</i></p>
+                <p class="text-secondary mt-2"><i>03/Oct/2023</i></p>
+            </div>
+            <div class="card-2 shadow m-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <img src="./assests/sarfaraz.png">
+                    <p><i>Sachin Tendulkar<br><span class="text-secondary">SDE-II at Indian Cricket Board</span></i></p>
+                    <img src="./assests/LinkedIN.svg">
+                </div>
+                <p class="text-secondary mt-3"><i>My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afg anistan. My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined</i></p>
+                <p class="text-secondary mt-2"><i>03/Oct/2023</i></p>
+            </div>
+        </div>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
